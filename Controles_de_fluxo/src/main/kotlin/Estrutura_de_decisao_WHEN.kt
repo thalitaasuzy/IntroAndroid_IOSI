@@ -10,7 +10,7 @@ fun main() {
         else -> println("Cargo não identificado")
     }
 
-    var imc:Float = 30
+    var imc:Float = 30f
 
     when(imc) {
         10f -> println("IMC está 10 ou abaixo")
