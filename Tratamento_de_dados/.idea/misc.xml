@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<?xml version="1.0" encoding="UTF-8"?>
->>>>>>> 67c49492cd94952d291f5db837a8bca242851ff4
 <project version="4">
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="temurin-11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
