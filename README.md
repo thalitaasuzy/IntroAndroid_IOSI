@@ -3,6 +3,7 @@
 O curso de desenvolvimento de aplicativos Android traz uma abordagem ampla, simples e atual sobre o desenvolvimento de softwares que rodem em aparelhos com o sistema operacional Android. Iremos compreender a usabilidade das linguagens Kotlin e Java e com elas realizar o desenvolvimento de softwares aplicativos integrado ao Android Studio.
 
 <h4> Controles de Fluxo</h4>
+
 - Como são declaradas as variáveis, mutáveis e imutáveis, bem como suas capacidades. <br>
 - Como utilizar, de maneira assertiva, as estruturas de decisão (IF, ELSE, ELSE IF e WHEN) e as estruturasde repetição (FOR, WHILE e DO.. WHILE). <br>
 - O que são as funções e como utilizar as chamadas entre elas. <br>
