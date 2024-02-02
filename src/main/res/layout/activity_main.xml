@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_Header"
+        android:text="@string/text_Header"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="26dp"
+        android:textSize="28sp"
+        android:textColor="#11DD85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edit_Distance"
+        android:layout_marginTop="30dp"
+        android:hint="@string/edit_Distance"
+        android:inputType="numberDecimal"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/edit_Price"
+        android:layout_marginTop="30dp"
+        android:hint="@string/edit_Price"
+        android:inputType="numberDecimal"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/edit_Autonomy"
+        android:layout_marginTop="30dp"
+        android:hint="@string/edit_Autonomy"
+        android:inputType="numberDecimal"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/text_Precending_Result"
+        android:text="@string/text_Precending_Result"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:textSize="18sp"
+        android:textColor="#514D57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_Result"
+        android:text="@string/text_Result"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="14dp"
+        android:textSize="29sp"
+        android:textColor="#11DD85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button_Calculate"
+        android:text="@string/button_Calculate"
+        android:textAllCaps="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:backgroundTint="#FD9B32"
+        android:layout_width="200dp"
+        android:layout_height="60dp" />
+
+</LinearLayout>
